@@ -1,6 +1,4 @@
 This fork implements a “recurring booking” feature. 
-
-
 Also, to the extent time permitted, it improves architecture by enforcing previously-disregarded SOLID principals, improving “DRY”s and enabling easier feature additions and scaling.
 
 
@@ -13,7 +11,7 @@ Also, to the extent time permitted, it improves architecture by enforcing previo
 4. Be protected from entering erroneous dates (via date range input validation).
 
 
-## Mitigation of Architiceture Flaws
+## Mitigation of Architecture Flaws
 
 
 Additional improvements were made to security, scalability and performance through architectural refactoring. The previous implementation had three core problems:
